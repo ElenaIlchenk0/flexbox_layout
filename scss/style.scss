@@ -45,6 +45,7 @@ body {
         box-shadow: -4px 11px 40px 0 rgba(0, 1, 1, 0.5);
         transform: scale(1.1, 1.1);
         transition-duration: 1s;
+        cursor: pointer;
     }
 }
 h2 {
@@ -549,6 +550,9 @@ h4 {
                 .fa {
                     margin: auto;
                     color: $basiclight;
+                    &:hover {
+                        cursor: pointer;
+                    }
                 }
             }
         }

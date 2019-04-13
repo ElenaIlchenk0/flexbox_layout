@@ -6,7 +6,7 @@ body { margin: 0; padding: 0; float: left; width: 100%; }
 
 .my-btn-primary { width: 120px; height: 42px; background-color: #00aeed; -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; border-radius: 30px; margin: 20px 0; border: none; color: white; box-shadow: -4px 11px 40px 0 rgba(0, 1, 1, 0.2); }
 
-.my-btn-primary:hover { background-color: #37c3a8; border-color: #37c3a8; box-shadow: -4px 11px 40px 0 rgba(0, 1, 1, 0.5); transform: scale(1.1, 1.1); transition-duration: 1s; }
+.my-btn-primary:hover { background-color: #37c3a8; border-color: #37c3a8; box-shadow: -4px 11px 40px 0 rgba(0, 1, 1, 0.5); transform: scale(1.1, 1.1); transition-duration: 1s; cursor: pointer; }
 
 h2 { text-transform: uppercase; font-size: 26px; font-weight: 700; }
 
@@ -237,6 +237,8 @@ h4 { text-transform: uppercase; font-size: 18px; margin: 20px 0; }
 .tenthcontainer_bg .tenthcontainer_wrapper .tenthcontainer_icon { -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; border-radius: 30px; width: 55px; height: 55px; border: 1px solid white; display: flex; margin: 20px; align-items: center; }
 
 .tenthcontainer_bg .tenthcontainer_wrapper .tenthcontainer_icon .fa { margin: auto; color: white; }
+
+.tenthcontainer_bg .tenthcontainer_wrapper .tenthcontainer_icon .fa:hover { cursor: pointer; }
 
 .eleventhcontainer { margin-bottom: 40px; }
 
