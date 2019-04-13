@@ -532,7 +532,7 @@ h4 {
         .tenthcontainer_wrapper {
             display: flex;
             padding: 100px 0;
-            justify-content: space-evenly;
+            justify-content: space-around;
             flex-wrap: wrap;
             flex-grow: 1;
             @include media-breakpoint-down(sm) {
@@ -545,6 +545,7 @@ h4 {
                 border: 1px solid $basiclight;
                 display: flex;
                 margin: 20px;
+                align-items: center;
                 .fa {
                     margin: auto;
                     color: $basiclight;
