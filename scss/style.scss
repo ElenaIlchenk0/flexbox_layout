@@ -71,7 +71,8 @@ h4 {
             }
             @include media-breakpoint-down(xs) {
                 min-width: 100px;
-                float: right;
+                float: left;
+                padding: 10px;
             }
             li {
                 a {
@@ -87,7 +88,10 @@ h4 {
         }
     }
 }
-
+.navbar-toggler {
+    border-color: white !important;
+    margin: 10px 0 0 0;
+}
 .flexWrapper {
     display: flex;
     color: $basiclight;
@@ -481,7 +485,9 @@ h4 {
                     margin: 65px 0 0 20px;
                 }
                 @include media-breakpoint-down(sm) {
-                    margin: 20px 0 0 20px;
+                    margin: 10px;
+                    flex-basis: 200px;
+                    flex-grow: 1;
                 }
                 img {
                     width: 100%;
