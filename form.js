@@ -16,12 +16,17 @@
         })
 
         $('#btn-submit').on('click', (event) => {
+            var result = true;
             for (var i = 0; i < fields.length; i++) {
                 if (!(validators[fields[i].name].test(fields[i].value))) {
                     $(fields[i]).addClass('invalid');
                     event.preventDefault();
+                    return result = false;
                 }
-            }  
+            }
+            if (result) { 
+                alert('Thank you for your massage!') 
+            };
         })
         
         fields.on('change', (event) => {
