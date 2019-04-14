@@ -274,6 +274,8 @@ h4 { text-transform: uppercase; font-size: 18px; margin: 20px 0; }
 
 .eleventhcontainer .eleventhcontainer_wrapper .eleventhcontainer_form .form-group .borderclass { border-bottom: 1px solid #cbcbcb; }
 
+.eleventhcontainer .eleventhcontainer_wrapper .eleventhcontainer_form .form-group .invalid { border: thin solid red; }
+
 .footercontainer { max-width: 1700px; text-align: center; background-color: #011a27; padding: 40px 0; }
 
 .footercontainer p { color: white; margin: 0; }

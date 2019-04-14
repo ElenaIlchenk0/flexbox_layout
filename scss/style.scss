@@ -618,6 +618,9 @@ h4 {
                 .borderclass {
                     border-bottom: 1px solid #cbcbcb;
                 }
+                .invalid {
+                    border: thin solid red;
+                }
             }
         }
     }
